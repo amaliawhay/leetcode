@@ -11,3 +11,10 @@ move diagonally or move outside the boundary (i.e., wrap-around is not allowed).
 //Check matrix value (newx, newy > x, y)
 
 //Increase path (output) +1 with each iteration
+
+var longestIncreasingPath = function (matrix) {
+  if (matrix == null || matrix.length == 0) return 0;
+  let m = matrix.length;
+  let n = matrix[0].length;
+  var longestIncreasingPath = 0;
+};
